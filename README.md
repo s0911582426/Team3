@@ -1,9 +1,9 @@
 # Team3
-# 出了一點意外，補救中 Q_Q
+### 出了一點意外，補救中 Q_Q
 [期末PPT](https://drive.google.com/drive/folders/1c1O27Rz6kRnlNIIQLe36cXxmOmxu_gMH?usp=sharing)</br> 
 [Demo影片](https://www.youtube.com/watch?app=desktop&v=5vkDe3KCirQ)
 
-## 主題 : 高科二手書交易平台
+# 主題 : 高科二手書交易平台
 
 ## 內容
 　　因為學校教學使用之教科書價格大多十分昂貴，加上很多課程都只佔一學期，很多同學買了新書卻只使用半年不到就再也沒有翻開過，因此便有了FB二手社團供同學們買賣各種需要的書籍。但我們還是發現其中的不便性，尤其是沒有一個制式的發文格式規範，導致難以查詢自己需要的書籍，價格也不明朗，以及社團內龍蛇混雜，有時候談好了後來人卻消失了，也不知道對方是誰無從查找。
