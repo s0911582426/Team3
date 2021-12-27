@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100642424136",
+    "project_id": "booktalk-46bae",
+    "storage_bucket": "booktalk-46bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100642424136:android:4312e501351e8c0b5e5f7d",
+        "android_client_info": {
+          "package_name": "com.example.book"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100642424136-0pd64eev1arr94jqbcq764f2tom9jo5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.book",
+            "certificate_hash": "53d100465e69028a6336fa0b3bbb42afffc94e41"
+          }
+        },
+        {
+          "client_id": "100642424136-bor71gs45qgigkuekev5q09bl1nidnrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Acu_lOdSQsAOuRz79Hx2zVfrW4UAo-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100642424136-bor71gs45qgigkuekev5q09bl1nidnrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

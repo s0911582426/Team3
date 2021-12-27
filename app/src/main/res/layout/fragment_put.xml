@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_background"
+    tools:context=".ui.put.PutFragment" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/put_image"
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/calculus"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:id="@+id/put_name"
+            style="@style/text_view_style"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp"
+            android:text="品名" />
+
+        <EditText
+            android:id="@+id/put_textname"
+            style="@style/edit_text_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_toLeftOf="@+id/put_name"
+            android:layout_toEndOf="@+id/put_name"
+            android:hint="微積分"
+            android:inputType="textPersonName" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout1">
+
+        <TextView
+            android:id="@+id/put_price"
+            style="@style/text_view_style"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp"
+            android:text="出價" />
+
+        <EditText
+            android:id="@+id/put_textprice"
+            style="@style/edit_text_style"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="14dp"
+            android:layout_toLeftOf="@+id/put_price"
+            android:layout_toEndOf="@+id/put_price"
+            android:inputType="number"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/put_way"
+        style="@style/text_view_style"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:text="交易方式"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+    <CheckBox
+        android:id="@+id/put_way1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toLeftOf="@+id/put_way"
+        android:layout_toEndOf="@+id/put_way"
+        android:background="@color/input_box"
+        android:text="面交"
+        android:textColor="@color/button_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/put_way"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+    <CheckBox
+        android:id="@+id/put_way2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/input_box"
+        android:text="超商純取"
+        android:textColor="@color/button_background"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/put_way"
+        app:layout_constraintTop_toBottomOf="@+id/put_way1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/put_addphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:src="@drawable/add_photo"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/put_send"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/send"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/put_clear"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/put_send"
+            android:text="@string/clear"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/text_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_shopping"
+        android:icon="@drawable/shopping"
+        android:title="@string/action_shopping"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_talk"
+        android:icon="@drawable/message"
+        android:title="@string/action_talk"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">高科二手書交易平台</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Team 3</string>
+    <string name="nav_header_subtitle">team3.book@nkust.edu.tw</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="activity_login">會員登入</string>
+    <string name="activity_buy">商品資訊</string>
+
+    <string name="action_shopping">購物車</string>
+    <string name="action_talk">交易對話</string>
+    <string name="action_delete">刪除全部</string>
+    <string name="menu_home">首頁</string>
+    <string name="menu_member">會員資料</string>
+    <string name="menu_record">購買紀錄</string>
+    <string name="menu_put">書籍上架</string>
+    <string name="menu_service">客服查詢</string>
+    <string name="menu_about">關於我們</string>
+    <string name="btm_detail">商品資訊</string>
+    <string name="btm_talk">聯繫賣家</string>
+    <string name="btm_add_shopping">加入購物車</string>
+    <string name="btm_paid">直接購買</string>
+
+    <string name="know">查看</string>
+    <string name="save">儲存</string>
+    <string name="clear">清除</string>
+    <string name="date">日期</string>
+    <string name="paid">結帳</string>
+    <string name="send">送出</string>
+    <string name="no_record">無資料</string>
+
+    <string name="login">登入</string>
+    <string name="cancel">取消</string>
+    <string name="forget"><u><i>忘記密碼</i></u></string>
+    <string name="register"><u><i>註冊帳號</i></u></string>
+
+    <string name="about_name">C108118107 蔡淑安\nC108118103 廖宇筌\nC108118109 賴佩瑜\nC108118113 蔡欣娪\nC108118114 蔡青樺\nC108118117 朱彩琪</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_buy">BuyActivity</string>
+    <string name="title_activity_know">KnowActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
