@@ -1,5 +1,7 @@
 # Team3
 # 出了一點意外，補救中 Q_Q
+# [期末PPT](https://drive.google.com/drive/folders/1c1O27Rz6kRnlNIIQLe36cXxmOmxu_gMH?usp=sharing)
+# [Demo影片](https://www.youtube.com/watch?app=desktop&v=5vkDe3KCirQ)
 
 ## 主題 : 高科二手書交易平台
 
