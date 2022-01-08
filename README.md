@@ -23,7 +23,7 @@
 ![甘特圖](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbgnhg11ZeJMZ2ELMzzfa2IetajAzUKUbBLkykRanfCWlYpSiqHEW-idvBOv0Aj8YvQojVOXA8RKDv/pubchart?oid=1299918055&format=image)
 
 ## PERT/CPM圖
-![PERT](PERT.png "第三組-PERT/CPM")
+![PERT](https://docs.google.com/drawings/d/e/2PACX-1vRcz4JHGNI6ke6j7Kbe0udLYAdMI1SELDhbW5z4pkO2q4xKsQZbwUVecnwpkOEqDdhuYSUQfnCbr-R_/pub?w=1475&h=684)
 
 ## 功能性需求 : 
 + 書籍管理：書籍的上下架，以及根據查詢條件來顯示結果。
