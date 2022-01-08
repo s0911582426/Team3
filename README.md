@@ -20,7 +20,7 @@
 ||C108118117|朱彩琪|主題討論、資料蒐集、系統設計、系統測試、口頭報告|
 
 ## 甘特圖
-![甘特圖](甘特圖.png "第三組-甘特圖")
+![甘特圖](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbgnhg11ZeJMZ2ELMzzfa2IetajAzUKUbBLkykRanfCWlYpSiqHEW-idvBOv0Aj8YvQojVOXA8RKDv/pubchart?oid=1299918055&format=image)
 
 ## PERT/CPM圖
 ![PERT](PERT.png "第三組-PERT/CPM")
