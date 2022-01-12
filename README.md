@@ -133,4 +133,4 @@
 ![分鏡圖](https://user-images.githubusercontent.com/71629944/147522194-b240e505-8928-477a-8fe0-780e36e13d81.png)
 
 ## 實體關係圖
-![實體關係圖](實體關係圖.png "第三組-實體關係圖")
+![實體關係圖](https://github.com/s0911582426/Team3/blob/main/%E5%AF%A6%E9%AB%94%E9%97%9C%E4%BF%82%E5%9C%96(%E4%BF%AE%E6%AD%A3%E7%89%88).png?raw=true)
